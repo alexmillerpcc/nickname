@@ -14,18 +14,18 @@ let saveButton;
 let butBool;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(340, 500);
   smooth();
-  //background(220);
+  background(240);
   
   fileload = createFileInput(fileLoaded);
-  fileload.position(20,20);
+  fileload.position(20,30);
   
   display = createElement('h2', "Character Name Loader");
-  display.position(20, 140);
+  display.position(20, 150);
   
   instruction = createElement('h2', "Load a file /\\ or start new \\/");
-  instruction.position(20, 40);
+  instruction.position(20, 50);
   
   input = createInput();
   input.position(20, display.y+70);
