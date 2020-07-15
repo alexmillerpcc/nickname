@@ -19,13 +19,13 @@ function setup() {
   //background(220);
   
   fileload = createFileInput(fileLoaded);
-  fileload.position(20,0);
+  fileload.position(20,20);
   
   display = createElement('h2', "Character Name Loader");
-  display.position(20, 120);
+  display.position(20, 140);
   
   instruction = createElement('h2', "Load a file /\\ or start new \\/");
-  instruction.position(20, 20);
+  instruction.position(20, 40);
   
   input = createInput();
   input.position(20, display.y+70);
