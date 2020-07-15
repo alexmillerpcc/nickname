@@ -14,7 +14,7 @@ let saveButton;
 let butBool;
 
 function setup() {
-  createCanvas(340, 500);
+  createCanvas(400, 500);
   smooth();
   background(240);
   
